@@ -9,5 +9,31 @@ package co.edu.sena.examplejdbc.model;
  * @author Aprendiz
  */
 public class EmployeeType {
-    
+    private int id;
+    private String descript;
+
+    public EmployeeType() {
+    }
+
+    public EmployeeType(int id, String descript) {
+        this.id = id;
+        this.descript = descript;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getDescript() {
+        return descript;
+    }
+
+    public void setDescript(String descript) {
+        this.descript = descript;
+    }
+   
 }

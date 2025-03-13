@@ -11,7 +11,7 @@ import co.edu.sena.examplejdbc.bd.DBConnection;
  * @author Brahian Quintero
  * objetivo: Probaar la conexión a la base de datos
  */
-public class TEstConnection {
+public class TestConnection {
     public static void main(String[] arg) {
         DBConnection connection = new DBConnection();
         connection.connect();
