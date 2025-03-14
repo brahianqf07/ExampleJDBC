@@ -9,14 +9,13 @@ import co.edu.sena.examplejdbc.model.Key;
 
 /**
  *
- * @author Aprendiz
+ * @author Brahian Quintero
  */
 public class TestKey {
     public static void main(String[] args) {
         DBKey dBKey = new DBKey();
-        //Insertar
-        Key key = new Key(5,"mi casa","sala2", 2, "Llavero");
+        //Insertar:
+        Key key = new Key(5,"mi casa","Sala2", 2, "Llavero");
         dBKey.insert(key);
-        
     }
 }

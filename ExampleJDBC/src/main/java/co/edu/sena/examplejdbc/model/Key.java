@@ -6,7 +6,7 @@ package co.edu.sena.examplejdbc.model;
 
 /**
  *
- * @author Aprendiz
+ * @author Brahian Quintero
  */
 public class Key {
     private int id;
