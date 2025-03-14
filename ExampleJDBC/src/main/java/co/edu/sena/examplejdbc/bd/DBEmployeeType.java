@@ -26,7 +26,7 @@ public class DBEmployeeType extends DBConnection{
             String sql = "Insert into employee_type (descript) values(?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, employeeType.getDescript());
-            preparedStatement.executeUpdate();
+            preparedStatement.executeUpdate();  
             preparedStatement.close();
         } catch (Exception e) {
             MessageUtils.showErrorMessage("Error al insertar tipo de empleado " +
@@ -94,7 +94,7 @@ public class DBEmployeeType extends DBConnection{
         }
         return results;
     }
-    public List<EmployeeType> findById(int id)
+    public EmployeeType findById(int id)
     {
         EmployeeType employeeType = null;
         try {
@@ -120,6 +120,6 @@ public class DBEmployeeType extends DBConnection{
             disconnect();
         }
         
-        return (List<EmployeeType>) employeeType;
+        return employeeType;
     }
 }
