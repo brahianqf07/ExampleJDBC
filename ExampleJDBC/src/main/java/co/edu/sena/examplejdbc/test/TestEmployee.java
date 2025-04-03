@@ -38,7 +38,7 @@ public class TestEmployee {
         }
         //consultar por id
         System.out.println("********************************");
-        Employee employee2 = dbe.findByid(1118);
+        Employee employee2 = dbe.findByid(1116);
         System.out.println("document: " + employee2.getDocument() + "fullname: " + employee2.getFullname() +
                             "addrres: " + employee2.getAddress() + "phone: " + employee2.getPhone() +
                             "type: " + employee2.getEmployeeType());

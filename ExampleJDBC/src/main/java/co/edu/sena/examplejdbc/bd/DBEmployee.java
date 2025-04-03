@@ -23,7 +23,7 @@ public class DBEmployee extends DBConnection {
     public void insert(Employee employee){   
         try {
             connect();
-            String sql = "INSERT INTO employee VALUES (?, ?, ?, ?, ?)";
+            String sql = "INSERT INTO employee() VALUES (?, ?, ?, ?, ?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setLong(1, employee.getDocument());
             preparedStatement.setString(2, employee.getFullname());

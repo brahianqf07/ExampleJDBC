@@ -97,7 +97,7 @@ public class DBRecord extends DBConnection {
                 record.setEndTime(resultSet.getString("end_time"));
                 record.setStatus(resultSet.getString("status"));
                 //FK de employee
-                Employee employee = dbe.findByid(resultSet.getLong("employee_id"));
+                Employee employee = dbe.findByid(resultSet.getLong( "employee_id"));
                 record.setEmployee(employee);
                 //FK de key
                 Key key = dbk.findById(resultSet.getInt("key_id"));

@@ -89,7 +89,6 @@ public class EmployeeTypeControllers implements IEmployeeTypeControllers{
         }
         
         return dbe.findById(id);
-   
     }
 
     @Override

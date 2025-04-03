@@ -13,8 +13,9 @@ import co.edu.sena.examplejdbc.model.Key;
 import java.util.List;
 
 /**
- *
- * @author Aprendiz
+ *Fecha:25/03/2025
+ * @author Brahian Quintero
+ * Objetivo:
  */
 public class TestRecord {
     public static void main(String[] args) {

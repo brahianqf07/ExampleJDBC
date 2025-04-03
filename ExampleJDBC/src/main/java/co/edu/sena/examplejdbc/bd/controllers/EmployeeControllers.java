@@ -130,6 +130,5 @@ public class EmployeeControllers implements IEmployeeControllers {
         }
         
         return dbe.findByid(document);
-     
     }
 }
