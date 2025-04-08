@@ -14,6 +14,6 @@ public interface IRecordControllers {
 public void insert(Record record) throws Exception;
 public void update(Record record) throws Exception;
 public void delete (int id)throws Exception;
- public List<Record> findAll() throws Exception;
+public List<Record> findAll() throws Exception;
 public Record findById(int id)throws Exception;
 }

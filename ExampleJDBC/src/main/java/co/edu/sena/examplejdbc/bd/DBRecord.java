@@ -86,7 +86,7 @@ public class DBRecord extends DBConnection {
         DBKey dbk = new DBKey();
         try {
             connect();
-            String sql = "select * from employee";
+            String sql = "select * from record";
             statament = connection.createStatement();
             ResultSet resultSet = statament.executeQuery(sql);
             while (resultSet.next()) {

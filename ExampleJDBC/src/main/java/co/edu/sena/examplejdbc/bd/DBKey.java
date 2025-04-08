@@ -92,7 +92,7 @@ public class DBKey extends DBConnection{
                 key.setName(resultSet.getString("name"));
                 key.setRoom(resultSet.getString("room"));
                 key.setCount(resultSet.getInt("Count"));
-                key.setName(resultSet.getString("observation"));
+                key.setObservation(resultSet.getString("observation"));
                 result.add(key);
             }
         } catch (SQLException e) {

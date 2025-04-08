@@ -19,9 +19,9 @@ public class KeyControllers implements IKeyControllers{
     @Override
     public void insert(Key key) throws Exception {
         if(key == null)
-                {
-                 throw new Exception("El tipo de llave es nulo");
-                }
+        {
+            throw new Exception("El tipo de llave es nulo");
+        }
         if("".equals(key.getName()))
         {
             throw new Exception("El nombre es obligatorio");
@@ -44,10 +44,9 @@ public class KeyControllers implements IKeyControllers{
     @Override
     public void update(Key key) throws Exception {
         if(key == null)
-                {
-                 throw new Exception("El tipo de llave es nulo");
-                }
-        
+        {
+            throw new Exception("El tipo de llave es nulo");
+        }
         if(key.getId()== 0)
         {
             throw new Exception("El id es obligatorio");
